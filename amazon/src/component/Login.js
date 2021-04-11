@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import '../Styles/Login.css'
 import {Link,useHistory} from 'react-router-dom'
 import {auth} from '../firebase/firebase'
@@ -29,6 +29,7 @@ const Login = () => {
             }
         ).catch(err=>alert(err.message))
     }
+    
     return (
         <div className="login">
             <Link to='/'>
