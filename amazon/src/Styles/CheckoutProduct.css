@@ -3,6 +3,7 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 .checkoutProduct__info{
     padding-left: 20px;
 
@@ -12,7 +13,8 @@
      border:1px solid;
      margin-top: 10px;
      border-color:#a88734 #9c7e31 #846129;
-     color:#111
+     color:#111;
+    
 }
 .checkoutProduct__image{
     object-fit: contain;
@@ -27,4 +29,7 @@
 .checkoutProduct__title{
     font-size:17px;
     font-weight:800;
+}
+button:hover{
+ background-color: #754c09;
 }

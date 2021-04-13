@@ -9,8 +9,12 @@
     min-width: 100px;
     background-color: white;
     z-index:1;
+    transition: transform .2s;
 
 
+}
+.product:hover{
+    transform: scale(1.05);
 }
 .product__price{
     margin-top: 5px;
@@ -22,6 +26,7 @@
     border-color:#a88734 #9c7331 #846a29;
     color:#111;
     margin-bottom: 10px;
+ 
 }
 .product__info{
     height: 100px;
